@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="/submit-form" method="POST" style="max-width: 400px; margin: 20px auto; font-family: Arial, sans-serif;">
+    <h2>Registration Form</h2>
+    
+    <div style="margin-bottom: 15px;">
+        <label for="fname">First Name :</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your name" required style="width: 100%; padding: 8px; margin-top: 5px;">
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required style="width: 100%; padding: 8px; margin-top: 5px;">
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="mobile">Mobile No.:</label><br>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number" required style="width: 100%; padding: 8px; margin-top: 5px;">
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="email">Gmail/Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required style="width: 100%; padding: 8px; margin-top: 5px;">
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" placeholder="Enter your address" rows="4" required style="width: 100%; padding: 8px; margin-top: 5px; resize: vertical;"></textarea>
+    </div>    
+    <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; width: 100%; font-size: 16px;">Submit</button>
+
+
+</form> 
+</body>
+</html>
