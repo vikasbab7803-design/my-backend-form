@@ -15,7 +15,7 @@ app.post('/submit-form', (req, res) => {
     console.log("--- AA GAYA DATA TERMINAL MEIN! ---");
     console.log(req.body); // Yeh line terminal mein aapka data print karegi
     
-    res.send(`<h1 style="color: green; text-align: center; margin-top: 50px;">🎉 Backend tak data successfully pahunch gaya!</h1>`);
+    res.send(`<h1 style="color: green; text-align: center; margin-top: 50px;">🎉 congratulation please check your account🎉</h1>`);
 });
 
 app.listen(3000, () => {
